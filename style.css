@@ -8,6 +8,42 @@ body {
   padding: 40px;
 }
 
+/* Flex Box Settings */
+.group {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  text-align: center;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+}
+
+.portfolio-group {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.portfolio-item {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+}
+
+.portfolio-item p {
+  font-size: 14px;
+}
+
+
 /* Headings */
 h1,
 h2,
@@ -25,7 +61,7 @@ header {
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  max-width: 600px;
 }
 
 article {
@@ -58,7 +94,7 @@ nav a {
 /* Images */
 img {
   width: 100%;
-  max-width: 200px;
+  max-width: px;
   height: auto;
 }
 
