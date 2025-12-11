@@ -23,8 +23,8 @@ body {
 .about-section {
   display: flex;
   flex-direction: column;
-  text-align: left; 
-  margin: 20px;
+  text-align: left;
+  margin: 10px 20px;
 }
 
 .portfolio-group {
@@ -62,7 +62,7 @@ header {
 div {
   background-color: #eae2b7;
   margin: auto;
-  max-width: 600px;
+  width: 600px;
 }
 
 article {
